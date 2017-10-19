@@ -1,0 +1,191 @@
+::selection {
+  background: #0085a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+body {
+  background-color: #262626;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #333;
+}
+
+a:focus,
+a:hover {
+  color: #1879db;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:focus,
+.footer a:hover {
+  color: #e5e5e5;
+}
+
+blockquote {
+  color: #818a91;
+  font-style: italic;
+}
+
+hr {
+  margin: 1.5rem 0;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.container {
+  max-width: 960px;
+}
+
+.footer {
+  padding: 1.5rem 0 .5rem;
+}
+
+.main h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.header {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.header .title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  background-color: #eeb211;
+  border-radius: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.navbar a:focus,
+.navbar a:hover {
+  color: #545454;
+}
+
+.navbar-subtitle {
+  background-color: #545454;
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+}
+
+.text-muted {
+  color: #fff!important;
+}
+
+.main .text-muted {
+  color: #818a91!important;
+}
+
+.navbar ul {
+  margin-bottom: 0rem;
+}
+
+.navbar-subtitle li {
+  margin-bottom: 0rem;
+  padding: 6px 6px;
+}
+
+.navbar-default li {
+  margin-bottom: 0rem;
+  padding: 3px 6px;
+}
+
+.header ul,
+.header li {
+  margin-bottom: .5rem;
+}
+
+.navbar ul,
+.header ul {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.navbar-default ul {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.main {
+  background-color: #fff;
+  padding: 1.5rem 0;
+}
+
+.footer {
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.highlight pre {
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+}
+
+.pagination .page-link {
+  color: #333;
+}
+
+.teaser header ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.teaser header li {
+  margin-bottom: .5rem;
+}
+
+.teaser .content p {
+  margin-bottom: 0;
+}
+
+.article header ul,
+.article header li {
+  margin-bottom: .5rem;
+}
+
+.article header li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.article .content a {
+  text-decoration: underline
+}
+
+.article .content img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .header .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header,
+  .footer {
+    text-align: center;
+  }
+
+  .teaser header li {
+    display: inline-block;
+  }
+
+  .teaser header li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
